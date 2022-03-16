@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Description -->
-  <meta content="Resume of Atanu Kumar Biswas (অতনু কুমার বিশ্বাস).
+  <meta content="Mail to Atanu (অতনু).
    Software developer since 2020.
   " name="description">
 
   <!-- Keywords -->
-  <meta name="keyword" content="Web portfolio,resume,CV,cv, Atanu Kumar Biswas, Atanu">
+  <meta name="keyword" content="Web portfolio,resume,CV,cv, Atanu Kumar Biswas, Atanu, Email">
 
   <!-- Icon -->
   <link href="images/Icon.svg" rel="icon">
@@ -24,7 +24,41 @@
 </head>
 
 <body>
-  <section>
+  <div class="container">
+    <h1>Contact me</h1>
+    <form
+      action="https://script.google.com/macros/s/AKfycby_VhFzxEfe3eS7QwJqdbfAVjJrxP22VR91zZ2cbifdVDAATUmBeMzY3FEPQSI_f-V3/exec"
+      method="POST">
+      <div class="form-group">
+        <div class="form-row">
+          <div class="col">
+            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+          </div>
+          <div class="col">
+            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+          </div>
+        </div>
+        <div class="col">
+          <input type="text" name="email" class="form-control" placeholder="Subject" required>
+        </div>
+        <div class="col">
+          <label for="massage">Massage</label>
+          <textarea name="massage" id="massage" cols="29" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div class="g-recaptcha" data-sitekey="6LdiKOYeAAAAAEQswPX-JmCw-E5QUJgm8WrHGaUv"></div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <!-- <div class="form-group">
+    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+  </div> 
+   <section>
     <div class="container">
       <form action="https://formspree.io/f/xknyzrjo" method="POST" id="my-form">
 
@@ -50,17 +84,14 @@
 
         <div class="form-group">
           <label for="massage">Massage</label>
-          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+          <textarea name="massage" id="massage" cols="29" rows="10"></textarea>
         </div>
 
         <button type="submit">Submit</button>
       </form>
     </div>
     <div id="status"></div>
-  </section>
-
-
-
+  </section> -->
   <script src="js/mailForm.js"></script>
 </body>
 
