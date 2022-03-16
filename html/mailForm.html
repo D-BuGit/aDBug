@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Description -->
+  <meta content="Resume of Atanu Kumar Biswas (অতনু কুমার বিশ্বাস).
+   Software developer since 2020.
+  " name="description">
+
+  <!-- Keywords -->
+  <meta name="keyword" content="Web portfolio,resume,CV,cv, Atanu Kumar Biswas, Atanu">
+
+  <!-- Icon -->
+  <link href="images/Icon.svg" rel="icon">
+
+  <!-- CSS style links -->
+  <link href="css/mailForm.css" rel="stylesheet">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>Atanu(অতনু)</title>
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <form action="https://formspree.io/f/xknyzrjo" method="POST" id="my-form">
+
+        <div class="form-group">
+          <label for="firstName"> First Name</label>
+          <input type="text" id="firstName" name="firstName">
+        </div>
+
+        <div class="form-group">
+          <label for="latsName">Last Name</label>
+          <input type="text" id="lastName" name="lastName">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="from-group">
+          <label for="subject">Subject</label>
+          <input type="subject" id="subject" name="subject">
+        </div>
+
+        <div class="form-group">
+          <label for="massage">Massage</label>
+          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="status"></div>
+  </section>
+
+
+
+  <script src="js/mailForm.js"></script>
+</body>
+
+</html>

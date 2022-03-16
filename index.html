@@ -5,18 +5,74 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Description -->
+  <meta content="Resume of Atanu Kumar Biswas (অতনু কুমার বিশ্বাস).
+   Software developer since 2020.
+  " name="description">
+
+  <!-- Keywords -->
+  <meta name="keyword" content="Web portfolio,resume,CV,cv, Atanu Kumar Biswas, Atanu">
+
+  <!-- Icon -->
+  <link href="images/Icon.svg" rel="icon">
+
+  <!-- CSS style links -->
+  <link href="css/mailForm.css" rel="stylesheet">
+  <!-- <link href="css/mailto.css" rel="stylesheet"> -->
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
   <title>Atanu(অতনু)</title>
 </head>
 
 <body>
-  <header>
-    <ul>
-      <li>m</li>
-      <li>mm</li>
-    </ul>
-  </header>
-  <h1>Hello world</h1>
-  <h1>Hello world</h1>
+
+  <!-- <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+
+
+  <iframe src="html/mailForm.html" style="position: absolute; height: 100%; border: none"
+    onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+
+
+    <script src="js/mailForm.js"></script> -->
+
+  <!-- <form action="https://formsubmit.co/atanukb319@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="www.adbug.tk/html/thankyou.html">
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <button type="submit">Send</button>
+  </form> -->
+
+
+  <div class="container">
+    <h1>FormSubmit Demo</h1>
+    <form target="_blank" action="https://formsubmit.co/atanukb319@gmail.com" method="POST">
+      <div class="form-group">
+        <div class="form-row">
+          <div class="col">
+            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+          </div>
+          <div class="col">
+            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+          </div>
+        </div>
+        <div class="col">
+          <input type="text" name="email" class="form-control" placeholder="Subject" required>
+        </div>
+      </div>
+  </div>
+  <div class="form-group">
+    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+  </div>
 
 </body>
 
